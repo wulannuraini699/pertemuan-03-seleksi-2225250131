@@ -1,7 +1,7 @@
 # Pertemuan 03 Seleksi Python
 Nama: Wulan Nur'aini  
 NIM: 2225250131  
-Kelas: 3  
+Kelas: 3E  
 
 ## Tujuan
 Menulis program seleksi if, if-else, kondisi majemuk, dan nested if.
