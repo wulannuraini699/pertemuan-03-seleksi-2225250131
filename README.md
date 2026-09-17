@@ -24,10 +24,10 @@ python3 tugas/analisis_persamaan_kuadrat.py
 
 | No | Input (a, b, c) | Hasil yang Diharapkan | Hasil Aktual | Status |
 |---|---|---|---|---|
-| 1 | 1, -5, 6 | Diskriminan = 1.00<br>Dua akar real: 3.00 dan 2.00 | Diskriminan = 1.00<br>Dua akar real: 3.00 dan 2.00 | PASS |
-| 2 | 1, 2, 1 | Diskriminan = 0.00<br>Akar kembar: -1.00 | Diskriminan = 0.00<br>Akar kembar: -1.00 | PASS |
-| 3 | 1, 0, 1 | Diskriminan = -4.00<br>Tidak ada akar real | Diskriminan = -4.00<br>Tidak ada akar real | PASS |
-| 4 | 0, 2, 3 | Bukan persamaan kuadrat. | Bukan persamaan kuadrat. | PASS |
+| 1 | 1, -5, 6 | Diskriminan = 1.00<br>Dua akar real: 3.00 dan 2.00 | Diskriminan = 1.00<br>Dua akar real: 3.00 dan 2.00 | BENAR |
+| 2 | 1, 2, 1 | Diskriminan = 0.00<br>Akar kembar: -1.00 | Diskriminan = 0.00<br>Akar kembar: -1.00 | BENAR |
+| 3 | 1, 0, 1 | Diskriminan = -4.00<br>Tidak ada akar real | Diskriminan = -4.00<br>Tidak ada akar real | BENAR |
+| 4 | 0, 2, 3 | Bukan persamaan kuadrat. | Bukan persamaan kuadrat. | BENAR |
 
 ## Refleksi
 Salah satu kesalahan logika yang umum terjadi saat penulisan rumus perhitungan akar adalah lupa menambahkan tanda kurung pada pembagi `(2 * a)`. Jika ditulis `-b + D**0.5 / 2 * a`, Python akan melakukan pembagian terlebih dahulu sebelum perkalian, sehingga hasilnya menjadi tidak akurat. 
